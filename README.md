@@ -6,9 +6,7 @@ A practical guide to deploying a LAMP stack — **Linux, Apache, MariaDB, and PH
 
 ## Architecture Overview
 
-<p align="center">
-  <img src="docs/lamp_stack_architecture.png" alt="LAMP Stack on AWS EC2" width="500"/>
-</p>
+<img src="docs/lamp_stack_architecture.png" alt="LAMP Stack on AWS EC2" width="450"/>
 
 ## What is a LAMP Stack?
 

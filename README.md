@@ -6,7 +6,7 @@ A practical guide to deploying a LAMP stack — **Linux, Apache, MariaDB, and PH
 
 ## Architecture Overview
 
-![Architecture Overview](docs/architecture.png)
+![Architecture Overview](docs/lamp_stack_architecture.png)
 
 ## What is a LAMP Stack?
 

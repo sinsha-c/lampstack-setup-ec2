@@ -43,7 +43,7 @@ Launch an Ubuntu EC2 instance from the AWS Console and SSH into it:
 ssh -i your-key.pem ubuntu@<your-ec2-public-ip>
 ```
 
-> **[Add Screenshot]** — EC2 instance running in AWS Console
+<img src="screenshots/launch-ec2-page.png" alt="Launch an instance" width="450"/>
 
 ---
 
@@ -58,7 +58,7 @@ sudo apt install -y apache2
 
 Verify Apache is running by visiting `http://<your-ec2-public-ip>` in a browser.
 
-> **[Add Screenshot]** — Apache default welcome page in browser
+<img src="screenshots/appache-default.png" alt="Apache default welcome page" width="450"/>
 
 ---
 
@@ -95,7 +95,7 @@ GRANT ALL PRIVILEGES ON test_database.* TO 'test_user'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
-
+<img src="screenshots/create-db.png" alt="Create database" width="450"/>
 ---
 
 ### Step 4 — Install PHP
@@ -120,7 +120,7 @@ Paste the following and save:
 
 Visit `http://<your-ec2-public-ip>/info.php` to confirm PHP is working.
 
-> **[Add Screenshot]** — PHP info page in browser
+<img src="screenshots/php-page.png" alt="PHP info page in browser" width="450"/>
 
 ---
 
@@ -144,8 +144,7 @@ echo "Database connection successful!";
 
 Visit `http://<your-ec2-public-ip>/database_test.php` to confirm connectivity.
 
-> **[Add Screenshot]** — "Database connection successful!" message in browser
-
+<img src="screenshots/final-output.png" alt="Database connection successful" width="450"/>
 
 ---
 

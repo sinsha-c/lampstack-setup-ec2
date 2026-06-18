@@ -95,7 +95,8 @@ GRANT ALL PRIVILEGES ON test_database.* TO 'test_user'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
-<img src="screenshots/create-db.png" alt="Create database" width="450"/>
+<img src="screenshots/create-db.png" alt="Create database" width="400"/>
+
 ---
 
 ### Step 4 — Install PHP
@@ -144,7 +145,15 @@ echo "Database connection successful!";
 
 Visit `http://<your-ec2-public-ip>/database_test.php` to confirm connectivity.
 
-<img src="screenshots/final-output.png" alt="Database connection successful" width="450"/>
+<table>
+  <tr>
+    <td style="border: 1px solid #555; padding: 5px;">
+      <img src="screenshots/final-output.png" 
+           alt="Database connection successful" 
+           width="450"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
